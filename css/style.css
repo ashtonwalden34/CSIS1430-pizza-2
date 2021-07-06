@@ -29,3 +29,13 @@
     font-size: 3vw;
     color: #F0EAD6;
 }
+
+/* Home */
+#home-img-wrapper {
+    text-align: center;
+}
+
+#home-pizza {
+    width: 50%;
+    height: auto;
+}
