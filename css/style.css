@@ -96,6 +96,12 @@
 
 .order-input {
     width: 25vw;
+    margin: 1vw;
+}
+
+#order-comment {
+    width: 35vw;
+    height: 10vh;
 }
 
 #order-submit {
