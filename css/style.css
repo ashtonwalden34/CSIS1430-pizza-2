@@ -88,3 +88,16 @@
 #about-us-wrapper {
     text-align: center;
 }
+
+/* Order Page */
+#order-form {
+    text-align: center;
+}
+
+.order-input {
+    width: 25vw;
+}
+
+#order-submit {
+    margin-left: 5%;
+}
