@@ -1,3 +1,13 @@
+.paragraph-wrapper {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    width: 50vw;
+    display: inline-block;
+}
+
 /* Navbar */
 #navbar {
     background-color: red;
@@ -47,13 +57,7 @@
     text-align: center;
 }
 
-#home-text-wrapper {
 
-}
-
-#home-text {
-    text-align: center;
-}
 
 #home-img-wrapper {
     text-align: center;
@@ -62,4 +66,26 @@
 #home-pizza {
     width: 50%;
     height: auto;
+}
+
+/* Contact Page */
+#contact-header {
+    text-align: center;
+}
+
+#contact-form {
+    text-align: center;
+}
+
+/* .contact-label {
+    border: solid black 3px;
+} */
+
+.contact-input {
+    border: solid red 3px;
+}
+
+#contact-message {
+    height: 15vh;
+    width: 25vw;
 }
