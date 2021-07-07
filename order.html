@@ -45,12 +45,40 @@
         <br>
         <br>
         <input class='order-input' id="order-city" name="city" placeholder="City" type="text">
+        <!-- Make Drop down menu for state abbreviations -->
+        <input class='order-input' id="order-state" name="state" placeholder="State" type="text">
         <input class='order-input' id="order-zip" name="zip" placeholder="Zip Code" type="text">
         <br>
         <br>
+        <!-- Make dropdown for each size option -->
+        <label for='size'>Select a size:</label>
+        <select name="size">
+            <option value="10-inch">10"</option>
+            <option value="12-inch">12"</option>
+            <option value="16-inch">16"</option>
+            <option value="24-inch">24"</option>
+            <option value="36-inch">36"</option>
+        </select>
+        <br>
+        <br>
+        <!-- Make radio button for crust options -->
+        <input type="radio" name="crust" > 
+        <br>
+        <br>
+        <!-- Make checkboxes for toppings with images -->
+        <label for="peperoni"> Test </label>
+        <input type="checkbox" class="order-topping" id="peperoni"> 
+        <br>
+        <br>
+
+
         <textarea class='order-input' id="order-comment" name="comments" placeholder="Additional Comments"></textarea>
         <br>
         <br>
+        
+
+
+
         <input class='order-form-button' id='order-clear' type="reset" value="clear">
         <input class='order-form-button' id='order-submit' type="submit" value="send">
     </form>
