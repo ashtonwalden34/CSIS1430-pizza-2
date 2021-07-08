@@ -15,6 +15,7 @@ html {
 .page-header {
     text-align: center;
     text-decoration: underline green;
+    font-family: papyrus;
 }
 
 .img-wrapper {
@@ -56,6 +57,7 @@ html {
     display: inline-block;
     padding-left: 25vw;
     vertical-align: middle;
+    font-family: papyrus;
 }
 
 #nav-links-wrapper {
@@ -69,6 +71,7 @@ html {
     width: 20%;
     font-size: 3vw;
     color: #F0EAD6;
+    font-family: papyrus;
 }
 
 /* Home */
@@ -106,6 +109,8 @@ html {
 .order-category-header {
     margin-bottom: 1vh;
     text-decoration: underline solid green 2px;
+    font-family: papyrus;
+    font-size: x-large;
 }
 
 .order-category-wrapper {
