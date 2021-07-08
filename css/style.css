@@ -122,6 +122,26 @@
     padding-left: 2vw;
 }
 
+label img {
+    height: auto;
+    width: 15vw;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.topping {
+    text-align: justify;
+    width: fit-content;
+    text-align: center;
+    display: inline-block;
+    padding-right: 2.5vw;
+    padding-left: 2.5vw;
+}
+
+.topping img {
+    display: block;
+    margin: 0 auto;
+}
 
 #order-comment {
     width: 35vw;
@@ -130,4 +150,4 @@
 
 #order-submit {
     margin-left: 5%;
-}
+} 
