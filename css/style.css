@@ -100,6 +100,10 @@ html {
 }
 
 /* Order Page */
+#order-header {
+    margin-bottom: 0;
+}
+
 #order-form {
     text-align: center;
 }
