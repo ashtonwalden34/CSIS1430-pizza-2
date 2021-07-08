@@ -99,6 +99,30 @@
     margin: 1vw;
 }
 
+.order-category-header {
+    margin-bottom: 1vh;
+    text-decoration: underline solid red 2px;
+}
+
+.order-category-wrapper {
+    text-align: center;
+    margin-left: 5vw;
+    width: 90vw;
+}
+
+.crust-option {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.crust-label {
+    display: inline-block;
+    text-align: center;
+    padding-left: 2vw;
+}
+
+
 #order-comment {
     width: 35vw;
     height: 10vh;
