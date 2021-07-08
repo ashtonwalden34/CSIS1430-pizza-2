@@ -48,14 +48,14 @@ html {
 }
 
 #nav-title {
-    width: 30vw;
+    width: 60vw;
     font-size: 5vw;
     text-align: center;
     text-decoration: underline;
     color: #F0EAD6;
     padding-bottom: 1vw;
     display: inline-block;
-    padding-left: 25vw;
+    padding-left: 12vw;
     vertical-align: middle;
     font-family: papyrus;
 }
@@ -75,6 +75,9 @@ html {
 }
 
 /* Home */
+#home-header {
+    margin-bottom: 0;
+}
 
 /* Contact Page */
 #contact-form {
