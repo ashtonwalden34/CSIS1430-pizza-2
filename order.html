@@ -35,7 +35,7 @@
         </p>
     </div>
 
-    <form id="order-form">
+    <form id="order-form" method="post" action="https://www.stonecoldprofessor.com/pizza-order.php">
         <!-- 
             size
             crust - radio
@@ -102,7 +102,7 @@
         <div class='order-category-wrapper' id="toppings-wrapper">
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="pepperoni">
+                <input type='checkbox' class='topping-checkbox' id="pepperoni" name="toppings[]" value="pepperoni">
                 <label for='pepperoni'>
                     <img src="/img/pepperoni.jpg">
                     <p>Pepperoni</p>
@@ -110,7 +110,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="sausage">
+                <input type='checkbox' class='topping-checkbox' id="sausage" name="toppings[]" value="sausage">
                 <label for='sausage'>
                     <img src="/img/sausage.jpg">
                     <p>Sausage</p>
@@ -118,7 +118,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="chicken">
+                <input type='checkbox' class='topping-checkbox' id="chicken" name="toppings[]" value="chicken">
                 <label for='chicken'>
                     <img src="/img/chicken.jpg">
                     <p>Chicken</p>
@@ -126,7 +126,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="canadian-bacon">
+                <input type='checkbox' class='topping-checkbox' id="canadian-bacon" name="toppings[]" value="canadian bacon">
                 <label for='canadian-bacon'>
                     <img src="/img/canadian-bacon.jpg">
                     <p>Canadian Bacon</p>
@@ -137,7 +137,7 @@
             <br>
             
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="salami">
+                <input type='checkbox' class='topping-checkbox' id="salami" name="toppings[]" value="salami">
                 <label for='salami'>
                     <img src="/img/salami.jpg">
                     <p>Salami</p>
@@ -145,7 +145,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="garlic">
+                <input type='checkbox' class='topping-checkbox' id="garlic" name="toppings[]" value="garlic">
                 <label for='garlic'>
                     <img src="/img/garlic.jpg">
                     <p>Garlic</p>
@@ -153,7 +153,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="tomatoes">
+                <input type='checkbox' class='topping-checkbox' id="tomatoes" name="toppings[]" value="tomatoes">
                 <label for='tomatoes'>
                     <img src="/img/tomatoes.jpg">
                     <p>Tomatoes</p>
@@ -161,7 +161,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="onions">
+                <input type='checkbox' class='topping-checkbox' id="onions" name="toppings[]" value="onions">
                 <label for='onions'>
                     <img src="/img/onions.jpg">
                     <p>Onions</p>
@@ -172,7 +172,7 @@
             <br>
             
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="mushrooms">
+                <input type='checkbox' class='topping-checkbox' id="mushrooms" name="toppings[]" value="mushrooms">
                 <label for='mushrooms'>
                     <img src="/img/mushrooms.jpg">
                     <p>Mushrooms</p>
@@ -180,7 +180,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="olives">
+                <input type='checkbox' class='topping-checkbox' id="olives" name="toppings[]" value="olives">
                 <label for='olives'>
                     <img src="/img/olives.jpg">
                     <p>Olives</p>
@@ -188,7 +188,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="bell-peppers">
+                <input type='checkbox' class='topping-checkbox' id="bell-peppers" name="toppings[]" value="bell peppers">
                 <label for='bell-peppers'>
                     <img src="/img/bell-peppers.jpg">
                     <p>Bell Peppers</p>
@@ -196,7 +196,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="jalapenos">
+                <input type='checkbox' class='topping-checkbox' id="jalapenos" name="toppings[]" value="jalapenos">
                 <label for='jalapenos'>
                     <img src="/img/jalapenos.jpg">
                     <p>Jalapenos</p>
@@ -207,7 +207,7 @@
             <br>
             
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="pineapple">
+                <input type='checkbox' class='topping-checkbox' id="pineapple" name="toppings[]" value="pineapple">
                 <label for='pineapple'>
                     <img src="/img/pineapple.jpg">
                     <p>Pineapple</p>
@@ -215,7 +215,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="spinach">
+                <input type='checkbox' class='topping-checkbox' id="spinach" name="toppings[]" value="spinach">
                 <label for='spinach'>
                     <img src="/img/spinach.jpg">
                     <p>Spinach</p>
@@ -223,7 +223,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="pepperoni">
+                <input type='checkbox' class='topping-checkbox' id="peperocini" name="toppings[]" value="peperocinis">
                 <label for='peperocini'>
                     <img src="/img/peperocini.jpg">
                     <p>Peperocini</p>
@@ -231,7 +231,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="artichoke">
+                <input type='checkbox' class='topping-checkbox' id="artichoke" name="toppings[]" value="artichokes">
                 <label for='artichoke'>
                     <img src="/img/artichoke.jpg">
                     <p>Artichoke</p>
@@ -242,7 +242,7 @@
             <br>
             
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="feta-cheese">
+                <input type='checkbox' class='topping-checkbox' id="feta-cheese" name="toppings[]" value="feta cheese">
                 <label for='feta-cheese'>
                     <img src="/img/feta-cheese.jpg">
                     <p>Feta Cheese</p>
@@ -250,7 +250,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="parmesean-cheese">
+                <input type='checkbox' class='topping-checkbox' id="parmesean-cheese" name="toppings[]" value="parmesean cheese">
                 <label for='parmesean-cheese'>
                     <img src="/img/parmesean-cheese.jpg">
                     <p>parmesean Cheese</p>
@@ -258,7 +258,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="basil">
+                <input type='checkbox' class='topping-checkbox' id="basil" name="toppings[]" value="basil">
                 <label for='basil'>
                     <img src="/img/basil.jpg">
                     <p>Basil</p>
@@ -266,7 +266,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="salt-and-pepper">
+                <input type='checkbox' class='topping-checkbox' id="salt-and-pepper" name="toppings[]" value="salt and pepper">
                 <label for='salt-and-pepper'>
                     <img src="/img/salt-and-pepper.jpg">
                     <p>Salt & Pepper</p>
@@ -277,7 +277,7 @@
             <br>
             
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="oregano">
+                <input type='checkbox' class='topping-checkbox' id="oregano" name="toppings[]" value="oregano">
                 <label for='oregano'>
                     <img src="/img/oregano.jpg">
                     <p>Oregano</p>
@@ -285,7 +285,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="olive-oil">
+                <input type='checkbox' class='topping-checkbox' id="olive-oil" name="toppings[]" value="olive oil">
                 <label for='olive-oil'>
                     <img src="/img/olive-oil.jpg">
                     <p>Olive Oil</p>
@@ -293,7 +293,7 @@
             </div>
 
             <div class='topping'>
-                <input type='checkbox' class='topping-checkbox' id="pesto">
+                <input type='checkbox' class='topping-checkbox' id="pesto" name="toppings[]" value="pesto">
                 <label for='pesto'>
                     <img src="/img/pesto.jpg">
                     <p>Pesto</p>
